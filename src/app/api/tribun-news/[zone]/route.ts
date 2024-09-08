@@ -39,6 +39,7 @@ export async function GET(
       data,
     };
 
+    //console.log(searchParams);
     if (searchParams) {
       const searchData = search(data, searchParams);
       let result: Item[] = [];

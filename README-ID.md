@@ -14,29 +14,29 @@ Berita Indo API adalah sebuah API yang menampilkan banyak berita di Indonesia se
 ## Daftar Routes Berita Indo API
 
 - `/` : Mendapatkan seluruh daftar dan info tentang API ini.
-- `/v1/cnn-news` : Mendapatkan seluruh berita terkini dari Berita CNN.
-- `/v1/cnn-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita CNN.
-- `/v1/cnbc-news/` : Mendapatkan seluruh berita terkini dari Berita CNBC.
-- `/v1/cnbc-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita CNBC.
-- `/v1/republika-news` : Mendapatkan seluruh berita terkini dari Berita Republika.
-- `/v1/republika-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Republika.
-- `/v1/tempo-news/` : Mendapatkan seluruh berita terkini dari Berita Tempo.
-- `/v1/tempo-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Tempo.
-- `/v1/antara-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Antara.
-- `/v1/kumparan-news/` : Mendapatkan seluruh berita terkini dari Berita Kumparan
-- `/v1/okezone-news` : Mendapatkan seluruh berita terkini dari Berita Okezone.
-- `/v1/okezone-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Okezone.
-- `/v1/liputan6-news` : Mendapatkan seluruh berita terkini dari Berita Liputan 6.
-- `/v1/bbc-news/` : Mendapatkan seluruh berita terkini dari Berita BBC.
-- `/v1/bbc-news/:type/` : Mendapatkan data berita secara spesifik dari tipe berita di Berita BBC.
-- `/v1/tribun-news`: Mendapatkan seluruh berita terkini dari Berita Tribun.
-- `/v1/tribun-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Tribun.
-- `/v1/jawa-pos/:type`: Mendapatkan seluruh berita terkini dari Berita Jawa Pos
-- `/v1/jawa-pos/:type`: Mendapatkan data berita secara spesifik dari tipe berita di Berita Jawa Pos
-- `/v1/vice/`:  Mendapatkan seluruh berita terkini dari Vice Indonesia
-- `/v1/suara/`:  Mendapatkan seluruh berita terkini dari Berita Suara
-- `/v1/suara/:type`:  Mendapatkan data berita secara spesifik dari tipe berita di Berita SUARA
-- `/v1/voa/`:  Mendapatkan seluruh berita terkini dari VOA Indonesia
+- `/cnn-news` : Mendapatkan seluruh berita terkini dari Berita CNN.
+- `/cnn-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita CNN.
+- `/cnbc-news/` : Mendapatkan seluruh berita terkini dari Berita CNBC.
+- `/cnbc-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita CNBC.
+- `/republika-news` : Mendapatkan seluruh berita terkini dari Berita Republika.
+- `/republika-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Republika.
+- `/tempo-news/` : Mendapatkan seluruh berita terkini dari Berita Tempo.
+- `/tempo-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Tempo.
+- `/antara-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Antara.
+- `/kumparan-news/` : Mendapatkan seluruh berita terkini dari Berita Kumparan
+- `/okezone-news` : Mendapatkan seluruh berita terkini dari Berita Okezone.
+- `/okezone-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Okezone.
+- `/liputan6-news` : Mendapatkan seluruh berita terkini dari Berita Liputan 6.
+- `/bbc-news/` : Mendapatkan seluruh berita terkini dari Berita BBC.
+- `/bbc-news/:type/` : Mendapatkan data berita secara spesifik dari tipe berita di Berita BBC.
+- `/tribun-news`: Mendapatkan seluruh berita terkini dari Berita Tribun.
+- `/tribun-news/:type` : Mendapatkan data berita secara spesifik dari tipe berita di Berita Tribun.
+- `/jawa-pos/:type`: Mendapatkan seluruh berita terkini dari Berita Jawa Pos
+- `/jawa-pos/:type`: Mendapatkan data berita secara spesifik dari tipe berita di Berita Jawa Pos
+- `/vice/`: Mendapatkan seluruh berita terkini dari Vice Indonesia
+- `/suara/`: Mendapatkan seluruh berita terkini dari Berita Suara
+- `/suara/:type`: Mendapatkan data berita secara spesifik dari tipe berita di Berita SUARA
+- `/voa/`: Mendapatkan seluruh berita terkini dari VOA Indonesia
 
 ## Daftar yang harus dilakukan
 
@@ -51,10 +51,10 @@ Berita Indo API adalah sebuah API yang menampilkan banyak berita di Indonesia se
   - [x] ~~Berita Liputan 6~~ (API berita ini mungkin tidak tersedia lagi, dikarenakan ada isu RSS dari Liputan6)
   - [x] Berita BBC
   - [x] Berita Tribun
-  - [x] Berita Jawa Pos  
-  - [x] Vice 
-  - [x] Berita Suara 
-  - [x] VOA Indonesia 
+  - [x] Berita Jawa Pos
+  - [x] Vice
+  - [x] Berita Suara
+  - [x] VOA Indonesia
 - Tingkatkan API
   - [x] Cari data berita
   - [ ] Memberikan halaman pada data API
@@ -97,6 +97,7 @@ Jika Anda menggunakan API ini di aplikasi Anda, Anda bisa mendaftarkan projek An
 
 - [Berita.id](https://github.com/NicolaDonoastro/berita.id) Platform berita minimalis oleh [NicolaDonoastro](https://github.com/NicolaDonoastro)
 - [Mobile News App](https://github.com/indrapalijama/mobile-news-platform) Aplikasi Mobile menggunakan Ionic oleh [Indrapalijama](https://github.com/indrapalijama)
+
 # Dukung saya
 
 Anda bisa mendukung saya di [Karya Karsa](https://karyakarsa.com/satyawikananda) dan [Trakteer](https://trakteer.id/satya-wikananda/)
